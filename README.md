@@ -18,3 +18,25 @@ The dataset is called the "Zara US Fashion Products Dataset" and it contains inf
 
 **research question:**
 Exploring Zara's Innovative Marketing and Supply Chain Strategies to Drive Sales. Identification of Deviations in sales and supply chain based on Customer reviews and sentiment analysis.
+
+As part of Data exploration first we took raw data and pre-processed it by removing unnecessary data from dataset and we structured the data into following columns “Product ID, Product Category,	Product Name, Product price,	Sizes, Coors, State, AGE, Date”.
+Below are data exploration techniques we used in this project:
+Pre-processing: Converting the raw data into use full data, To create any data model we need to pre-process the un-useful data.
+	Filtering: Selecting a subset of the data based on certain criteria, such as state or date range.
+	Aggregation: Grouping data by one or more variables to get a summary of the data.
+	Outlier detection: Identifying and analyzing values that are significantly different from the rest of the data.
+Data cleaning: Removing unnecessary data and structuring the remaining data into columns.
+	If there are any Null values and empty cells we removed those Null values using ‘NOT NULL’ Function.
+
+Descriptive statistics: Analyzing the dataset to get a general sense of the data, such as mean, median, mode, standard deviation, etc. 
+	We used methods to find overall sales date wise:
+	‘DATE TIME’ function
+	example- strptime(x,'%m/%d/%Y')) : converts the string value to exact date
+	 strftime('%b'), converts the numeric date(month) to string date(month). 
+Data visualization: Creating charts and graphs to visually represent the data, such as scatter plots, histograms, box plots, etc.
+	We used functions like matplotlib-pyplot, scatter…etc, seaborn,  to represent  data visually.
+	Bar graph, we used to represent state wise visualization
+	Histographic, point plots …etc 
+Cross-tabulation: Analyzing the relationships between two or more variables by creating a contingency table. 
+	We used functions like crosstab ..etc
+
